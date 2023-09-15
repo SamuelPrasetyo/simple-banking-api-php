@@ -9,9 +9,9 @@
 
 <body>
     <?php
-        include 'include/header.php';
+        include '../include/header.php';
     ?>
 
-    <h1>Halaman Home</h1>
+    <h1 style="margin: 100px 0px 0px 120px;">Halaman Home</h1>
 </body>
 </html>

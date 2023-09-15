@@ -35,7 +35,7 @@
             <div class="container">
                 <!-- Navbar brand -->
                 <a class="navbar-brand me-2" href="#">
-                    <img src="../assets/logo_fintech.png" height="50" alt="Logo Fintech Technology" loading="lazy" style="margin-top: -1px; margin-right: 30px;" />
+                    <img src="../../assets/logo_fintech.png" height="50" alt="Logo Fintech Technology" loading="lazy" style="margin-top: -1px; margin-right: 30px;" />
                 </a>
 
                 <!-- Toggle button -->
@@ -47,10 +47,10 @@
                 <div class="collapse navbar-collapse" id="navbarButtonsExample">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="home.php">Home</a>
+                            <a class="nav-link" href="../home/home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cek_saldo.php">Cek Saldo</a>
+                            <a class="nav-link" href="../cek_saldo/view_saldo.php">Cek Saldo</a>
                         </li>
 
                         <li class="nav-item dropdown">

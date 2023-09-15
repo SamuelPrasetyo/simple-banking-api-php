@@ -6,6 +6,6 @@
     <title>Login</title>
 </head>
 <body>
-    <h1><a href="view/home.php">Ke Halaman Home</a></h1>
+    <h1><a href="view/home/home.php">Ke Halaman Home</a></h1>
 </body>
 </html>
