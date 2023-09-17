@@ -53,7 +53,7 @@
                 echo "Nomor rekening tidak ditemukan.";
             }
         } else {
-            echo "Masukkan nomor rekening untuk cek saldo.";
+            echo '<h5 style="margin: 100px 0px 0px 120px;">Masukkan nomor rekening untuk cek saldo.</h5>';
         }
     ?>
 
