@@ -50,7 +50,7 @@
                 </div>
             ';
             } else {
-                echo "Nomor rekening tidak ditemukan.";
+                echo '<h5 style="margin: 100px 0px 0px 120px;">Nomor rekening tidak ditemukan.</h5>';
             }
         } else {
             echo '<h5 style="margin: 100px 0px 0px 120px;">Masukkan nomor rekening untuk cek saldo.</h5>';
