@@ -246,7 +246,7 @@
             //echo "Current time is : ".$date;
 
             //FOR UPDATING HISTORY TABLE WHICH MAINTAINS RECORDS OF ALL TRANSACTIONS
-            $InsertTransactTable ="Insert into transfer (nama_pengirim, no_rekpengirim, nama_penerima, no_rekpenerima, jumlah_transfer, time) values ('$row1[nama_nasabah]','$row1[no_rekening]','$row2[nama_nasabah]','$row2[no_rekening]','$AMOUNT','$date')";
+            $InsertTransactTable ="Insert into transfer (nama_pengirim, no_rekpengirim, nama_penerima, no_rekpenerima, jumlah_transfer, time) values ('$row1[nama_nasabah]','$PAYER_ID','$row2[nama_nasabah]','$PAYEE_ID','$AMOUNT','$date')";
             //EXECUTING INSERT COMMAND AND CHECKING IF INSERTION WAS SUCCESSULL OR NOT
             if($conn->query($InsertTransactTable)==true){
                     ?>         

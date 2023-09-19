@@ -56,10 +56,10 @@ INSERT INTO `rekening` (`no_rekening`, `nama_nasabah`, `saldo`, `nama_bank`) VAL
 CREATE TABLE `transfer` (
   `id` int(11) NOT NULL,
   `nama_pengirim` varchar(50) NOT NULL,
-  `no_rekpengirim` int(13) NOT NULL,
+  `no_rekpengirim` varchar(13) NOT NULL,
   `nama_penerima` varchar(50) NOT NULL,
-  `no_rekpenerima` int(13) NOT NULL,
-  `jumlah_transfer` int(13) NOT NULL,
+  `no_rekpenerima` varchar(13) NOT NULL,
+  `jumlah_transfer` decimal(15,0) NOT NULL,
   `time` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -68,12 +68,12 @@ CREATE TABLE `transfer` (
 --
 
 INSERT INTO `transfer` (`id`, `nama_pengirim`, `no_rekpengirim`, `nama_penerima`, `no_rekpenerima`, `jumlah_transfer`, `time`) VALUES
-(1, 'Bobon', 2147483647, 'Coki', 2147483647, 10000, '2023-09-17 16:20:45'),
-(2, 'Bobon', 2147483647, 'Coki', 2147483647, 10000, '2023-09-17 16:25:45'),
-(3, 'Bobon', 2147483647, 'Coki', 2147483647, 10000, '2023-09-17 16:28:09'),
-(4, 'Bobon', 2147483647, 'Coki', 2147483647, 10000, '2023-09-17 16:30:45'),
-(6, 'danni', 2147483647, 'riski', 2147483647, 1000000, '2023-09-17 18:09:48'),
-(7, 'riski', 2147483647, 'danni', 2147483647, 20000, '2023-09-17 18:27:58');
+(1, 'Bobon', 1809094352934, 'Coki', 1809094352935, 10000, '2023-09-17 16:20:45'),
+(2, 'Bobon', 1809094352934, 'Coki', 1809094352935, 10000, '2023-09-17 16:25:45'),
+(3, 'Bobon', 1809094352934, 'Coki', 1809094352935, 10000, '2023-09-17 16:28:09'),
+(4, 'Bobon', 1809094352934, 'Coki', 1809094352935, 10000, '2023-09-17 16:30:45'),
+(6, 'danni', 1809094352940, 'riski', 1809094352937, 1000000, '2023-09-17 18:09:48'),
+(7, 'riski', 1809094352937, 'danni', 1809094352940, 20000, '2023-09-17 18:27:58');
 
 --
 -- Indexes for dumped tables
