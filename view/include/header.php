@@ -59,7 +59,7 @@
 
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../transfer/transfer.php">Transfer</a></li>
-                                <li><a class="dropdown-item" href="#">History Transaksi</a></li>
+                                <li><a class="dropdown-item" href="../history_transaksi/history.php">History Transaksi</a></li>
                             </ul>
                         </li>
                     </ul>
