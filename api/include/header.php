@@ -50,7 +50,7 @@
                             <a class="nav-link" href="../home/home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../cek_saldo/view_saldo.php">Cek Saldo</a>
+                            <a class="nav-link" href="../balance/balance.php">Cek Saldo</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -59,7 +59,7 @@
 
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../transfer/transfer.php">Transfer</a></li>
-                                <li><a class="dropdown-item" href="../history_transaksi/history.php">History Transaksi</a></li>
+                                <li><a class="dropdown-item" href="../transactions/transactions.php">History Transaksi</a></li>
                             </ul>
                         </li>
                     </ul>
